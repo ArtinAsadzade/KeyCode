@@ -2,18 +2,23 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: IranSans
-}
-
-@font-face {
-	font-family: IranSans;
-	src: url(../fonts/IRANSansWeb.ttf);
+	font-family: fantasy;
+	text-transform: capitalize;
 }
 
 body {
 	background: url(../bg.webp);
 }
-
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	padding: 15px;
+  }
+  
+  header img {
+	width: 50px;
+  }
 #heading {
 	display: flex;
 	justify-content: center;
