@@ -49,6 +49,8 @@ header {
 	text-align: center;
 	width: 20%;
 	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
 }
 
 .info-box h3 {
@@ -79,4 +81,6 @@ header {
 #starter #starter-text {
 	background: #fff;
 	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
 }
